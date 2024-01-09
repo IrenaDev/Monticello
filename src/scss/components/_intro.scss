@@ -1,0 +1,32 @@
+.intro {
+	margin-bottom: 90px;
+	text-align: center;
+
+	&__title {
+		font-family: var(--c-blue-dark);
+		color: var(--c-blue-dark);
+		position: relative;
+		font-weight: 700;
+		font-size: 44px;
+
+		&::before {
+			background-color: var(--c-blue-dark);
+			display: inline-block;
+			position: absolute;
+			top: -30px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 100px;
+			content: '';
+			height: 1px;
+		}
+
+		&--white {
+			color: var(--c-white);
+
+			&::before {
+				background-color: var(--c-white);
+			}
+		}
+	}
+}

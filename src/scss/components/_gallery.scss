@@ -1,0 +1,9 @@
+.gallery {
+  padding: 150px 0;
+
+  &__tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
