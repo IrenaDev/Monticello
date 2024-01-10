@@ -28,18 +28,9 @@ const swiperNews = new Swiper('.js-swiper-news', {
 	},
 
 	pagination: {
-		el: '.swiper-pagination',
+		el: '.js-custom-pagination',
 		clickable: true,
 	},
 });
 
 console.log('test');
-
-// Map
-// function initMap() {
-// 	var location = { lat: -34.397, lng: 150.644 };
-// 	var map = new google.maps.Map(document.getElementById('googleMap'), {
-// 		zoom: 12,
-// 		center: location,
-// 	});
-// }

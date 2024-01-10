@@ -3,11 +3,13 @@
 @import './main';
 @import './base';
 
+// * Shared
+@import './shared/index';
+
 // * Components
 @import './components/index';
 
 // * Elements
 @import './elements/index';
 
-// * Shared
-@import './shared/index';
+
