@@ -25,12 +25,24 @@
 		font-size: 50px;
 	}
 
+	@media (min-width: 992px) {
+		&__title {
+			font-size: 80px;
+		}
+	}
+
 	&__description {
 		font-family: var(--f-montserrat);
 		letter-spacing: 5.4px;
 		color: var(--c-white);
 		font-weight: 400;
 		font-size: 16px;
+	}
+
+	@media (min-width: 992px) {
+		&__description {
+			font-size: 18px;
+		}
 	}
 
 	// Slider
@@ -58,12 +70,5 @@
 @media (min-width: 992px) {
 	.hero {
 		max-height: 800px;
-
-		&__title {
-			font-size: 80px;
-		}
-		&__description {
-			font-size: 18px;
-		}
 	}
 }
